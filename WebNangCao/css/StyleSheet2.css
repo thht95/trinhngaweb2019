@@ -1,0 +1,511 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;*/
+    width: 100%;
+}
+
+.header {
+    position: relative;
+    min-height: 1px;
+    background: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+    .header img {
+        margin-left: 80px;
+        margin-top: 8px;
+        display: block;
+    }
+
+#banner {
+    background-color: gray;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.nav {
+    width: 100%;
+}
+
+    .nav ul {
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        list-style-type: none;
+        background-color: #ebebe0;
+    }
+
+        .nav ul li {
+            display: inline-table;
+            position: relative;
+        }
+
+
+            .nav ul li a {
+                width: 150px;
+                text-decoration: none;
+                color: black;
+                text-align: center;
+                display: block;
+                line-height: 20px;
+                font-size: 17px;
+                font-weight: bold;
+                padding: 15px;
+            }
+
+
+            .nav ul li:hover ul li {
+                text-align: center;
+                background-color: #B8B1B1;
+                color: #630B0B;
+                border-bottom: 1px solid black;
+            }
+
+            .nav ul li a:hover {
+                color: #fff;
+                background-color: black;
+            }
+
+            .nav ul li ul {
+                visibility: hidden;
+                position: absolute;
+                width: 100%;
+            }
+
+            .nav ul li:hover ul {
+                visibility: visible;
+                z-index: 1;
+            }
+
+            .nav ul li > .sub-menu li {
+                display: block;
+            }
+
+
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+#banner img {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.header {
+    width: 100%;
+}
+
+.search {
+    text-align: right;
+}
+
+.content-left {
+    float: left;
+    width: 25%;
+}
+
+.tintuc {
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+}
+
+    .tintuc img {
+        width: 100%;
+        height: auto;
+    }
+
+.content {
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+
+/* Slideshow container */
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    z-index: 0;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+.text {
+    color: white;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+/**/
+.content-right {
+    float: right;
+    width: 75%;
+}
+
+.spp {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.Tieudee {
+    color: #333;
+}
+
+.row {
+    float: left;
+    width: 33.33333333%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .content-left, .content-right, .thongtin {
+        width: 100%;
+    }
+
+    #main {
+        width: 100%;
+    }
+
+    .header {
+        float: left;
+    }
+
+    .rowqa {
+        width: 100%;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .nav ul li {
+        width: 100%;
+    }
+
+    .dn {
+        width: 100%;
+    }
+
+    .nav ul li a {
+        width: 100%;
+    }
+
+    .nav ul li:hover .sub-menu {
+        position: static;
+    }
+}
+
+#txt {
+    width: 250px;
+}
+
+#main {
+    max-width: 500px;
+    font-size: 22px;
+    margin: 150px auto;
+    padding: 30px;
+    line-height: 30px;
+    border: 1px solid black;
+}
+
+    #main input {
+        margin-left: 30px;
+    }
+
+#nut {
+    text-align: right;
+}
+
+
+.btn {
+    padding: 3px;
+}
+
+.rowqa {
+    float: left;
+    width: 33.3333%;
+    height: auto;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+}
+
+.anhsp {
+    float: left;
+    width: 50%;
+}
+
+.anhspbagggg {
+    float: left;
+    width: 40%;
+}
+
+.anhspShoes {
+    float: left;
+    width: 30%;
+}
+
+.img-res {
+    float: left;
+    width: 40%;
+    max-width: 100%;
+}
+
+.thongtin {
+    float: right;
+    width: 50%;
+}
+
+    .thongtin a:hover {
+        background-color: black;
+        color: #fff;
+    }
+
+    .thongtin button {
+        font-size: 20px;
+    }
+
+.tieude {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: inherit;
+}
+
+.rowqa a {
+    color: black;
+}
+
+
+.footer {
+    width: 100%;
+    clear: both;
+    background-color: black;
+    color: #fff;
+    padding: 30px;
+}
+
+    .footer p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+.login {
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+}
+
+    .login-header,
+    .login p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+.login-triangle {
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-bottom-color: black;
+}
+
+.login-header {
+    background: black;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.login-container {
+    background: #ebebeb;
+    padding: 12px;
+}
+
+.login p {
+    padding: 12px;
+}
+
+.login input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+.login button {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    background: black;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+.button {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    background: black;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    background: #fff;
+    border-color: #333;
+    color: #555;
+}
+
+    .login input[type="text"]:focus,
+    .login input[type="password"]:focus {
+        border-color: #888;
+    }
+
+.login button:hover {
+    background: #B8B1B1;
+}
+
+.login button:focus {
+    border-color: #05a;
+}
+
+.login .button:hover {
+    background: #B8B1B1;
+}
+
+.login .button:focus {
+    border-color: #05a;
+}

@@ -1,0 +1,193 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="WebNangCao.MasterPage" %>
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/StyleSheet2.css" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/style2.css" rel="stylesheet" />
+    <link href="css/slider.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/Site.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/startstop-slider.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+        <%--<asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>--%>
+                <div class="wrap">
+                    <div class="header">
+                        <div class="headertop_desc">
+                            <div class="call">
+                                <p>
+                                    <span>Need help?</span> call us <span class="number">+84-34783-4499 ||</span>
+
+                                    <a id="txtKenhBan" runat="server" href="TrangChu.aspx?f=users&fs=kenhban" style="color: blue;">Kênh người bán</a><a id="txtKenhHeThong" runat="server" href="Administrator.aspx" style="color: blue;">Kênh hệ thống</a>
+                                </p>
+                            </div>
+                            <div class="account_desc" id="divdangki" runat="server">
+                                <ul>
+                                    <li><a href="TrangChu.aspx?f=users&fs=register">Register</a></li>
+                                    <li><a href="TrangChu.aspx?f=users&fs=login">Login</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="account_desc" id="taikhoan" runat="server" visible="false">
+                                <ul>
+                                    <li>
+                                        <div>UserName:[<%=Session["usernamedisplay"] %>]&nbsp;<asp:LinkButton runat="server" ID="lnkExit" OnClick="lnkExit_Click">Exit</asp:LinkButton></div>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="header_top">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="/images/vvv.png" alt="" /></a>
+                            </div>
+                            <div class="cart" style="font-size: 22px;">
+                                <p>Welcome to our TaKa!</p>
+                                <div>
+                                    <p>
+                                        <span>Cart:</span><div style="display: inline-block; font-size: 0.9em; margin: 0 auto; padding: 0px 5px; outline: none;">
+                                            <a href='/SanPham.aspx?f=product&fs=cart'><b style="color: red"><%=Session["CountSP"] %></b> sản phẩm</a> - <b style="color: red"><%=string.Format("{0:N0}",Session["Total"]) %></b> VNĐ
+                                        </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="header_bottom">
+                        <div class="menu">
+                            <ul>
+                                <li class="active" id="trangchu"><a href="TrangChu.aspx">Trang chủ</a></li>
+                                <li id="about"><a href="About.aspx">About</a></li>
+                                <li id="sanpham"><a href="SanPham.aspx">Sản Phẩm</a></li>
+                                <li id="tintuc"><a href="TinTuc.aspx">Tin Tức</a></li>
+                                <li id="contact"><a href="Contact.aspx">Liên hệ</a></li>
+                            </ul>
+                        </div>
+
+                        <script>
+                            $(document).ready(function () {
+                                $('li[id=sanpham]').click(function () {
+                                    //alert('ok');
+                                    //$(this).addClass["active"];
+                                    $(this).css('background', 'cyan');
+                                });
+                            });
+                        </script>
+                       <%-- <div class="search_box">
+                            <form>
+                                <asp:TextBox ID="search" placeholder="Search" runat="server"  ></asp:TextBox>
+                                <asp:Button ID="btnSearch" runat="server" Text="" OnClick="btnSearch_Click" />
+                            </form>
+                        </div>--%>
+                        <div class="clear"></div>
+                    </div>
+                    <!-- end row welcome -->
+                    <div class="content">
+                        
+
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+       <%--     </ContentTemplate>
+        </asp:UpdatePanel>--%>
+
+
+        <div class="footer">
+            <div class="wrap">
+                <div class="section group">
+                    <div class="col_1_of_4 span_1_of_4">
+                        <h4>Chăm sóc khách hàng</h4>
+                        <ul>
+                            <li><a href="#">Trung tâm trợ giúp</a></li>
+                            <li><a href="#">Hướng dẫn mua hàng</a></li>
+                            <li><a href="#">Hướng dẫn bán hàng</a></li>
+                            <li><a href="#">Vận chuyển</a></li>
+                            <li><a href="#">Trả hàng và hoàn tiền</a></li>
+                        </ul>
+                    </div>
+                    <div class="col_1_of_4 span_1_of_4">
+                        <h4>Về Taka</h4>
+                        <ul>
+                            <li><a href="#">Giới thiệu về Taka Việt Nam</a></li>
+                            <li><a href="#">Tuyển dụng</a></li>
+                            <li><a href="#">Điều khoản</a></li>
+                            <li><a href="#">Chính sách bảo mật</a></li>
+                            <li><a href="#">Kênh người bán</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col_1_of_4 span_1_of_4">
+                        <h4>Tài khoản</h4>
+                        <ul>
+                            <li><a href='TrangChu.aspx?f=users&fs=login'>Đăng nhập</a></li>
+                            <li><a href='/SanPham.aspx?f=product&fs=cart'>Xem giỏ hàng</a></li>
+                            <li><a href="#">Hỗ trợ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col_1_of_4 span_1_of_4">
+                        <h4>liên hệ</h4>
+                        <ul>
+                            <li><span>+84-34783-4499</span></li>
+                            <li><span>+00-123-000000</span></li>
+                        </ul>
+                        <div class="social-icons">
+                            <h4>Follow Us</h4>
+                            <ul>
+                                <li><a href="#" target="_blank">
+                                    <img src="images/facebook.png" alt="" /></a></li>
+                                <li><a href="#" target="_blank">
+                                    <img src="images/twitter.png" alt="" /></a></li>
+                                <li><a href="#" target="_blank">
+                                    <img src="images/skype.png" alt="" />
+                                </a></li>
+                                <li><a href="#" target="_blank">
+                                    <img src="images/dribbble.png" alt="" /></a></li>
+                                <li><a href="#" target="_blank">
+                                    <img src="images/linkedin.png" alt="" /></a></li>
+                                <div class="clear"></div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy_right">
+                <p>&copy; 2019 Sàn chứng khoạn thương mại điện tử TaKa.</p>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $().UItoTop({ easingType: 'easeOutQuart' });
+
+            });
+        </script>
+        <script type="text/javascript" src="javascript.js"></script>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,639 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B6DE5B7C-B5B0-4313-B37D-7AC0D6B080AC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebNangCao</RootNamespace>
+    <AssemblyName>WebNangCao</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FreeTextBox, Version=3.3.1.12354, Culture=neutral, PublicKeyToken=5962a4e684a48b87, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\FreeTextBox\Framework-4-0\FreeTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebNangCao.Dal">
+      <HintPath>..\WebNangCao.Dal\bin\Debug\WebNangCao.Dal.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Admin\adminControl.ascx" />
+    <Content Include="Administrator.aspx" />
+    <Content Include="Admin\contacts\contactControl.ascx" />
+    <Content Include="Admin\LienHe\ChiTietLienHe.ascx" />
+    <Content Include="Admin\LienHe\LienHeControl.ascx" />
+    <Content Include="Admin\MenuAdmin.ascx" />
+    <Content Include="Admin\MenuHeThong.ascx" />
+    <Content Include="Admin\SanPham\chitietsanpham.ascx" />
+    <Content Include="Admin\SanPham\danhmucsanpham.ascx" />
+    <Content Include="Admin\SanPham\DuyetSanPham.ascx" />
+    <Content Include="Admin\SanPham\SanPhamControl.ascx" />
+    <Content Include="Admin\TinTuc\ChiTietTinTUc.ascx" />
+    <Content Include="Admin\TinTuc\DanhMucTinTuc.ascx" />
+    <Content Include="Admin\TinTuc\TinTucControl.ascx" />
+    <Content Include="Admin\Users\adminUserControl.ascx" />
+    <Content Include="Admin\Users\UserControl.ascx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="css\admin.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\Site.css" />
+    <Content Include="css\slider.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\style2.css" />
+    <Content Include="css\StyleSheet2.css" />
+    <Content Include="display\dIndex.ascx" />
+    <Content Include="display\dMenuDisplay.ascx" />
+    <Content Include="display\dMenuKenhBan.ascx" />
+    <Content Include="display\Product\dSanPham.ascx" />
+    <Content Include="display\News\dNewsControl.ascx" />
+    <Content Include="display\News\dNewsDetail.ascx" />
+    <Content Include="display\News\dNewsList.ascx" />
+    <Content Include="display\Product\dHoaDonThanhToan.ascx" />
+    <Content Include="display\Product\dProductCart.ascx" />
+    <Content Include="display\Product\dProductControl.ascx" />
+    <Content Include="display\Product\dProductDetail.ascx" />
+    <Content Include="display\Product\dProductList.ascx" />
+    <Content Include="display\users\dKenhBanQuanLy.ascx" />
+    <Content Include="display\users\dKenhBanQuanLyDonHang.ascx" />
+    <Content Include="display\users\dKenhBanThemSP.ascx" />
+    <Content Include="display\users\dUserDangKy.ascx" />
+    <Content Include="display\users\dUserDisplayControl.ascx" />
+    <Content Include="display\users\dUserKenhBan.ascx" />
+    <Content Include="display\users\dUserLogin.ascx" />
+    <Content Include="images\about_img.jpg" />
+    <Content Include="images\arrow-next.png" />
+    <Content Include="images\arrow-prev.png" />
+    <Content Include="images\arrow_up.png" />
+    <Content Include="images\compare.png" />
+    <Content Include="images\delivery-img1.jpg" />
+    <Content Include="images\delivery-img2.jpg" />
+    <Content Include="images\delivery-img3.jpg" />
+    <Content Include="images\dribbble.png" />
+    <Content Include="images\drop_arrow-hover.png" />
+    <Content Include="images\drop_arrow.png" />
+    <Content Include="images\facebook.png" />
+    <Content Include="images\feature-pic1.jpg" />
+    <Content Include="images\feature-pic2.jpg" />
+    <Content Include="images\feature-pic3.jpg" />
+    <Content Include="images\feature-pic4.jpg" />
+    <Content Include="images\hung1231420193265522.png" />
+    <Content Include="images\hungvu981220193151427.jpg" />
+    <Content Include="images\hungvu981220193151552.jpg" />
+    <Content Include="images\hungvu981220193155252.jpg" />
+    <Content Include="images\hungvu981220193155311.jpg" />
+    <Content Include="images\hungvu981220193155321.jpg" />
+    <Content Include="images\hungvu981220193155350.jpg" />
+    <Content Include="images\hungvu981220193155920.jpg" />
+    <Content Include="images\hungvu98132019315111.jpg" />
+    <Content Include="images\hungvu981320193151157.jpg" />
+    <Content Include="images\hungvu981320193151231.jpg" />
+    <Content Include="images\hungvu981320193151243.jpg" />
+    <Content Include="images\hungvu981420193155821.jpg" />
+    <Content Include="images\hungvu98142019332531.jpg" />
+    <Content Include="images\hungvu98152019334059.jpg" />
+    <Content Include="images\linkedin.png" />
+    <Content Include="images\list-img.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\new-pic1.jpg" />
+    <Content Include="images\new-pic2.jpg" />
+    <Content Include="images\new-pic3.jpg" />
+    <Content Include="images\new-pic4.jpg" />
+    <Content Include="images\newsimg1.jpg" />
+    <Content Include="images\newsimg2.jpg" />
+    <Content Include="images\newsimg3.jpg" />
+    <Content Include="images\preview.jpg" />
+    <Content Include="images\price-rating.png" />
+    <Content Include="images\productslide-1.jpg" />
+    <Content Include="images\productslide-2.jpg" />
+    <Content Include="images\productslide-3.jpg" />
+    <Content Include="images\productslide-4.jpg" />
+    <Content Include="images\productslide-5.jpg" />
+    <Content Include="images\productslide-6.jpg" />
+    <Content Include="images\quality-rating.png" />
+    <Content Include="images\search.png" />
+    <Content Include="images\skype.png" />
+    <Content Include="images\slide-1-image.png" />
+    <Content Include="images\slide-2-image.jpg" />
+    <Content Include="images\slide-3-image.jpg" />
+    <Content Include="images\slide1.jpg" />
+    <Content Include="images\slide2.jpg" />
+    <Content Include="images\slide3.jpg" />
+    <Content Include="images\tag.png" />
+    <Content Include="images\thumbnailslide-1.jpg" />
+    <Content Include="images\thumbnailslide-2.jpg" />
+    <Content Include="images\thumbnailslide-3.jpg" />
+    <Content Include="images\thumbnailslide-4.jpg" />
+    <Content Include="images\thumbnailslide-5.jpg" />
+    <Content Include="images\thumbnailslide-6.jpg" />
+    <Content Include="images\twitter.png" />
+    <Content Include="images\value-rating.png" />
+    <Content Include="images\vvv.png" />
+    <Content Include="images\wishlist.png" />
+    <Content Include="img\030e29b6623c174aed3c3a1f0d1e0aeab81cdbf3_l.jpg" />
+    <Content Include="img\13189769_14522100_1000.jpg" />
+    <Content Include="img\15940562_1045356835591312_8175601803379721452_n %281%29.jpg" />
+    <Content Include="img\28471228_154438908604178_7929223120495056797_n.jpg" />
+    <Content Include="img\37024728_1144099532396302_8348400307176210432_n.jpg" />
+    <Content Include="img\43400872_1763543523774055_3547038276575559680_n.jpg" />
+    <Content Include="img\44028248_1950806744985473_160650073431080960_n.jpg" />
+    <Content Include="img\banner-dark.jpg" />
+    <Content Include="img\chr46.jpg" />
+    <Content Include="img\clother.jpg" />
+    <Content Include="img\cr10dia_1.jpg" />
+    <Content Include="img\cr19n_1.jpg" />
+    <Content Include="img\DU18F7170BG08_2.jpg" />
+    <Content Include="img\DU18F7170BG09_UNI_6.jpg" />
+    <Content Include="img\DU18F7271F08_S_1.jpg" />
+    <Content Include="img\DU18F7271F09_.jpg" />
+    <Content Include="img\DU18F7274BG08_.jpg" />
+    <Content Include="img\DU18F7274BG09_.jpg" />
+    <Content Include="img\DU18F7274F09_.jpg" />
+    <Content Include="img\DU18F7286F09_S_7.jpg" />
+    <Content Include="img\DU18F7289BG09_.jpg" />
+    <Content Include="img\DU18F7354SBW99_31_1.jpg" />
+    <Content Include="img\DU18F7370MU09_S_1.jpg" />
+    <Content Include="img\DU18F7373MU09_1.jpg" />
+    <Content Include="img\DU18F7374P08_S_2.jpg" />
+    <Content Include="img\DU18F7380SRAW26_S_1.jpg" />
+    <Content Include="img\DU18F7801MU91_1.jpeg" />
+    <Content Include="img\DU18F7802CVP91_1.jpeg" />
+    <Content Include="img\DU_-_DS18F7800AVP181_1.jpg" />
+    <Content Include="img\DU_-_DS18F7802AVP181_1.jpg" />
+    <Content Include="img\fleuron-titanium-inlayed-gemstones-chrome-hearts-cross-ring.jpg" />
+    <Content Include="img\images.jpg" />
+    <Content Include="img\original_.jpg" />
+    <Content Include="img\RA18F0237LPG09_1.jpg" />
+    <Content Include="img\RA18F0246LMG09_1.jpg" />
+    <Content Include="img\RA18F0247LCY18_1.jpg" />
+    <Content Include="img\RA18F0270LCW_09_1.jpg" />
+    <Content Include="img\RA18F0270LPG_95_1.jpg" />
+    <Content Include="img\RB18F0269LCW09_1.jpg" />
+    <Content Include="img\RB18F0271LCW95_1.jpg" />
+    <Content Include="img\RF00M5894LPNM991_1.jpg" />
+    <Content Include="img\RF00M6264JS09_S_2.jpeg" />
+    <Content Include="img\RF00M6762LB09_48_2.jpg" />
+    <Content Include="img\ring.jpg" />
+    <Content Include="img\RR18F1728SMK09_2.jpg" />
+    <Content Include="img\RR18F1904WCPP09_6.jpg" />
+    <Content Include="img\RU18F1285BA44_.jpg" />
+    <Content Include="img\RU18F1385TE09_48_2.jpg" />
+    <Content Include="img\RU18F1690KCY09_.jpg" />
+    <Content Include="img\RU18F1730WH09_50_5 %281%29.jpg" />
+    <Content Include="img\RU18F1730WH09_50_5.jpg" />
+    <Content Include="img\RU18F1761LCW09_48_1.jpg" />
+    <Content Include="img\RU18F1872LNSP91_1.jpg" />
+    <Content Include="img\RU18F1891LPO91_1.jpg" />
+    <Content Include="img\RU18F1980WB09_48_9.jpg" />
+    <Content Include="img\RU18F1993EVD3YS_09_46_-2 %281%29.jpg" />
+    <Content Include="img\RU18F1993EVD3YS_09_46_-2.jpg" />
+    <Content Include="img\shoes.jpg" />
+    <Content Include="img\slide1.jpg" />
+    <Content Include="img\slide2.jpg" />
+    <Content Include="img\slide3.jpg" />
+    <Content Include="img\Untitled-1.jpg" />
+    <Content Include="img\Untitled-2.jpg" />
+    <Content Include="img\Untitled-3.jpg" />
+    <Content Include="img\Untitled-4.jpg" />
+    <Content Include="img\Untitled5.jpg" />
+    <Content Include="img\vv.jpg" />
+    <Content Include="javascript.js" />
+    <Content Include="js\easing.js" />
+    <Content Include="js\easyResponsiveTabs.js" />
+    <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\jquery.accordion.js" />
+    <Content Include="js\jquery.easing.js" />
+    <Content Include="js\move-top.js" />
+    <Content Include="js\script.js" />
+    <Content Include="js\slides.min.jquery.js" />
+    <Content Include="js\startstop-slider.js" />
+    <Content Include="SanPham.aspx" />
+    <Content Include="ThanhToan.aspx" />
+    <Content Include="TimKiem2.aspx" />
+    <Content Include="TinTuc.aspx" />
+    <Content Include="TrangChu.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\adminControl.ascx.cs">
+      <DependentUpon>adminControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\adminControl.ascx.designer.cs">
+      <DependentUpon>adminControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator.aspx.cs">
+      <DependentUpon>Administrator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator.aspx.designer.cs">
+      <DependentUpon>Administrator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\contacts\contactControl.ascx.cs">
+      <DependentUpon>contactControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\contacts\contactControl.ascx.designer.cs">
+      <DependentUpon>contactControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\LienHe\ChiTietLienHe.ascx.cs">
+      <DependentUpon>ChiTietLienHe.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\LienHe\ChiTietLienHe.ascx.designer.cs">
+      <DependentUpon>ChiTietLienHe.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\LienHe\LienHeControl.ascx.cs">
+      <DependentUpon>LienHeControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\LienHe\LienHeControl.ascx.designer.cs">
+      <DependentUpon>LienHeControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\MenuAdmin.ascx.cs">
+      <DependentUpon>MenuAdmin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\MenuAdmin.ascx.designer.cs">
+      <DependentUpon>MenuAdmin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\MenuHeThong.ascx.cs">
+      <DependentUpon>MenuHeThong.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\MenuHeThong.ascx.designer.cs">
+      <DependentUpon>MenuHeThong.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SanPham\chitietsanpham.ascx.cs">
+      <DependentUpon>chitietsanpham.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SanPham\chitietsanpham.ascx.designer.cs">
+      <DependentUpon>chitietsanpham.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SanPham\danhmucsanpham.ascx.cs">
+      <DependentUpon>danhmucsanpham.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SanPham\danhmucsanpham.ascx.designer.cs">
+      <DependentUpon>danhmucsanpham.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SanPham\DuyetSanPham.ascx.cs">
+      <DependentUpon>DuyetSanPham.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SanPham\DuyetSanPham.ascx.designer.cs">
+      <DependentUpon>DuyetSanPham.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SanPham\SanPhamControl.ascx.cs">
+      <DependentUpon>SanPhamControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SanPham\SanPhamControl.ascx.designer.cs">
+      <DependentUpon>SanPhamControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TinTuc\ChiTietTinTUc.ascx.cs">
+      <DependentUpon>ChiTietTinTUc.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TinTuc\ChiTietTinTUc.ascx.designer.cs">
+      <DependentUpon>ChiTietTinTUc.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TinTuc\DanhMucTinTuc.ascx.cs">
+      <DependentUpon>DanhMucTinTuc.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TinTuc\DanhMucTinTuc.ascx.designer.cs">
+      <DependentUpon>DanhMucTinTuc.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TinTuc\TinTucControl.ascx.cs">
+      <DependentUpon>TinTucControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TinTuc\TinTucControl.ascx.designer.cs">
+      <DependentUpon>TinTucControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\adminUserControl.ascx.cs">
+      <DependentUpon>adminUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\adminUserControl.ascx.designer.cs">
+      <DependentUpon>adminUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserControl.ascx.cs">
+      <DependentUpon>UserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserControl.ascx.designer.cs">
+      <DependentUpon>UserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CommonConnect.cs" />
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="display\dIndex.ascx.cs">
+      <DependentUpon>dIndex.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\dIndex.ascx.designer.cs">
+      <DependentUpon>dIndex.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\dMenuDisplay.ascx.cs">
+      <DependentUpon>dMenuDisplay.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\dMenuDisplay.ascx.designer.cs">
+      <DependentUpon>dMenuDisplay.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\dMenuKenhBan.ascx.cs">
+      <DependentUpon>dMenuKenhBan.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\dMenuKenhBan.ascx.designer.cs">
+      <DependentUpon>dMenuKenhBan.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\Product\dSanPham.ascx.cs">
+      <DependentUpon>dSanPham.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\Product\dSanPham.ascx.designer.cs">
+      <DependentUpon>dSanPham.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\News\dNewsControl.ascx.cs">
+      <DependentUpon>dNewsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\News\dNewsControl.ascx.designer.cs">
+      <DependentUpon>dNewsControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\News\dNewsDetail.ascx.cs">
+      <DependentUpon>dNewsDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\News\dNewsDetail.ascx.designer.cs">
+      <DependentUpon>dNewsDetail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\News\dNewsList.ascx.cs">
+      <DependentUpon>dNewsList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\News\dNewsList.ascx.designer.cs">
+      <DependentUpon>dNewsList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\Product\dHoaDonThanhToan.ascx.cs">
+      <DependentUpon>dHoaDonThanhToan.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\Product\dHoaDonThanhToan.ascx.designer.cs">
+      <DependentUpon>dHoaDonThanhToan.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\Product\dProductCart.ascx.cs">
+      <DependentUpon>dProductCart.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\Product\dProductCart.ascx.designer.cs">
+      <DependentUpon>dProductCart.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\Product\dProductControl.ascx.cs">
+      <DependentUpon>dProductControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\Product\dProductControl.ascx.designer.cs">
+      <DependentUpon>dProductControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\Product\dProductDetail.ascx.cs">
+      <DependentUpon>dProductDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\Product\dProductDetail.ascx.designer.cs">
+      <DependentUpon>dProductDetail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\Product\dProductList.ascx.cs">
+      <DependentUpon>dProductList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\Product\dProductList.ascx.designer.cs">
+      <DependentUpon>dProductList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\users\dKenhBanQuanLy.ascx.cs">
+      <DependentUpon>dKenhBanQuanLy.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\users\dKenhBanQuanLy.ascx.designer.cs">
+      <DependentUpon>dKenhBanQuanLy.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\users\dKenhBanQuanLyDonHang.ascx.cs">
+      <DependentUpon>dKenhBanQuanLyDonHang.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\users\dKenhBanQuanLyDonHang.ascx.designer.cs">
+      <DependentUpon>dKenhBanQuanLyDonHang.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\users\dKenhBanThemSP.ascx.cs">
+      <DependentUpon>dKenhBanThemSP.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\users\dKenhBanThemSP.ascx.designer.cs">
+      <DependentUpon>dKenhBanThemSP.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\users\dUserDangKy.ascx.cs">
+      <DependentUpon>dUserDangKy.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\users\dUserDangKy.ascx.designer.cs">
+      <DependentUpon>dUserDangKy.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\users\dUserDisplayControl.ascx.cs">
+      <DependentUpon>dUserDisplayControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\users\dUserDisplayControl.ascx.designer.cs">
+      <DependentUpon>dUserDisplayControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\users\dUserKenhBan.ascx.cs">
+      <DependentUpon>dUserKenhBan.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\users\dUserKenhBan.ascx.designer.cs">
+      <DependentUpon>dUserKenhBan.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="display\users\dUserLogin.ascx.cs">
+      <DependentUpon>dUserLogin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display\users\dUserLogin.ascx.designer.cs">
+      <DependentUpon>dUserLogin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SanPham.aspx.cs">
+      <DependentUpon>SanPham.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SanPham.aspx.designer.cs">
+      <DependentUpon>SanPham.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThanhToan.aspx.cs">
+      <DependentUpon>ThanhToan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThanhToan.aspx.designer.cs">
+      <DependentUpon>ThanhToan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TimKiem2.aspx.cs">
+      <DependentUpon>TimKiem2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TimKiem2.aspx.designer.cs">
+      <DependentUpon>TimKiem2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TinTuc.aspx.cs">
+      <DependentUpon>TinTuc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TinTuc.aspx.designer.cs">
+      <DependentUpon>TinTuc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu.aspx.cs">
+      <DependentUpon>TrangChu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu.aspx.designer.cs">
+      <DependentUpon>TrangChu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.Master" />
+    <Content Include="images\Thumbs.db" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55021</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55021/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,198 @@
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\WebNangCao.dll.config
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\WebNangCao.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\WebNangCao.pdb
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\csc.exe
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\csc.exe.config
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\csc.rsp
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\csi.exe
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\csi.rsp
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\vbc.exe
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\vbc.exe.config
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\vbc.rsp
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\FreeTextBox.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\WebNangCao.Dal.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\WebNangCao.Dal.pdb
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\obj\Debug\WebNangCao.dll.licenses
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\obj\Debug\WebNangCao.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\obj\Debug\WebNangCao.csproj.CopyComplete
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\obj\Debug\WebNangCao.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\obj\Debug\WebNangCao.pdb
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao\obj\Debug\WebNangCao.csprojAssemblyReference.cache
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\WebNangCao.dll.config
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\WebNangCao.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\WebNangCao.pdb
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\csc.exe
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\csc.exe.config
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\csc.rsp
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\csi.exe
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\csi.rsp
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\System.AppContext.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\System.Collections.Immutable.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\System.IO.FileSystem.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\System.Reflection.Metadata.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\vbc.exe
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\vbc.exe.config
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\vbc.rsp
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\VBCSCompiler.exe
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\roslyn\VBCSCompiler.exe.config
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\WebNangCao.Dal.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\WebNangCao.Dal.pdb
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\obj\Debug\WebNangCao.csprojAssemblyReference.cache
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\obj\Debug\WebNangCao.dll.licenses
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\obj\Debug\WebNangCao.csproj.CoreCompileInputs.cache
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\obj\Debug\WebNangCao.csproj.CopyComplete
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\obj\Debug\WebNangCao.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao\obj\Debug\WebNangCao.pdb
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\obj\Debug\WebNangCao.dll.licenses
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\obj\Debug\WebNangCao.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\WebNangCao.dll.config
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\WebNangCao.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\WebNangCao.pdb
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\FreeTextBox.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\WebNangCao.Dal.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\WebNangCao.Dal.pdb
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\obj\Debug\WebNangCao.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\obj\Debug\WebNangCao.csproj.CopyComplete
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\obj\Debug\WebNangCao.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao\obj\Debug\WebNangCao.pdb
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\obj\Debug\WebNangCao.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\obj\Debug\WebNangCao.dll.licenses
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\obj\Debug\WebNangCao.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\obj\Debug\WebNangCao.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\obj\Debug\WebNangCao.pdb
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\WebNangCao.dll.config
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\WebNangCao.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\WebNangCao.pdb
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\FreeTextBox.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\WebNangCao.Dal.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\WebNangCao.Dal.pdb
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao\obj\Debug\WebNangCao.csproj.CopyComplete
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\WebNangCao.dll.config
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\WebNangCao.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\WebNangCao.pdb
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\csc.exe
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\csc.exe.config
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\csc.rsp
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\csi.exe
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\csi.rsp
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\System.AppContext.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\vbc.exe
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\vbc.exe.config
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\vbc.rsp
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\VBCSCompiler.exe
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\WebNangCao.Dal.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\WebNangCao.Dal.pdb
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\obj\Debug\WebNangCao.csprojAssemblyReference.cache
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\obj\Debug\WebNangCao.dll.licenses
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\obj\Debug\WebNangCao.csproj.CoreCompileInputs.cache
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\obj\Debug\WebNangCao.csproj.CopyComplete
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\obj\Debug\WebNangCao.dll
+C:\Users\TrangThuy\Downloads\WebNangCaoDIThi\WebNangCaoDIThi\WebNangCao\obj\Debug\WebNangCao.pdb

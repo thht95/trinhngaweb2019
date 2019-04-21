@@ -1,0 +1,24 @@
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao.Dal\bin\Debug\WebNangCao.Dal.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao.Dal\bin\Debug\WebNangCao.Dal.pdb
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao.Dal\obj\Debug\WebNangCao.Dal.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao.Dal\obj\Debug\WebNangCao.Dal.dll
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao.Dal\obj\Debug\WebNangCao.Dal.pdb
+C:\Users\Admin\source\repos\WebNangCao\WebNangCao.Dal\obj\Debug\WebNangCao.Dal.csprojAssemblyReference.cache
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao.Dal\bin\Debug\WebNangCao.Dal.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao.Dal\bin\Debug\WebNangCao.Dal.pdb
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao.Dal\obj\Debug\WebNangCao.Dal.csprojAssemblyReference.cache
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao.Dal\obj\Debug\WebNangCao.Dal.csproj.CoreCompileInputs.cache
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao.Dal\obj\Debug\WebNangCao.Dal.dll
+F:\Baitap\Lap trinh WEB Nang cao\WebNangCao\WebNangCao\WebNangCao.Dal\obj\Debug\WebNangCao.Dal.pdb
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao.Dal\bin\Debug\WebNangCao.Dal.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao.Dal\bin\Debug\WebNangCao.Dal.pdb
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao.Dal\obj\Debug\WebNangCao.Dal.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao.Dal\obj\Debug\WebNangCao.Dal.dll
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao.Dal\obj\Debug\WebNangCao.Dal.pdb
+C:\Users\Admin\Desktop\WebNangCao\WebNangCao.Dal\obj\Debug\WebNangCao.Dal.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao.Dal\bin\Debug\WebNangCao.Dal.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao.Dal\bin\Debug\WebNangCao.Dal.pdb
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao.Dal\obj\Debug\WebNangCao.Dal.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao.Dal\obj\Debug\WebNangCao.Dal.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao.Dal\obj\Debug\WebNangCao.Dal.dll
+C:\Users\Admin\Desktop\WebNangCaoDIThi\WebNangCao.Dal\obj\Debug\WebNangCao.Dal.pdb
